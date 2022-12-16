@@ -1,0 +1,32 @@
+.container-list-job {
+    .input-job{
+        input {
+            margin-right: 10px;
+        }
+        button {
+            box-sizing: content-box;
+            width: 39px;
+            color: green;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        margin-bottom: 10px;
+    }
+
+    .list-job{
+        button {
+                cursor: pointer;
+                box-sizing: content-box;
+                width: 39px;
+                border-radius: 3px;
+                color: purple;
+                &:first-child {
+                    color: red;
+                    margin: 5px;
+                }
+            }
+        input {
+            margin-right: 10px;
+        }
+    }
+}
